@@ -1,0 +1,32 @@
+<!doctype HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Meow</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	    <script>
+		    function play() {
+		        var audio = document.getElementById("audio");
+		        audio.play();
+		      	}
+	   
+	    </script>
+	    <style type="text/css">
+	    	#cat:active {
+  				transform: translateY(-10px);
+			}
+	    </style>
+</head>
+
+<body class="container bg-dark">
+	
+
+    <div  class="d-flex">
+    	<img id="cat" class="img-fluid" onclick="play()" src="https://i.pinimg.com/originals/5c/1b/bb/5c1bbb64c853bdbf9b564084c1240396.png">
+    	<audio id="audio" src="https://www.fiftysounds.com/music/sfx-animal-cat3.mp3"></audio>
+	</div>
+  </body>
+
+</html>
